@@ -167,3 +167,19 @@
   #endif
 
 #endif // ULTRA_LCD && NEWPANEL
+
+// XXX dpavlin -- my pinout
+#define LCD_PINS_RS       9   // E1       JP11-11
+#define LCD_PINS_ENABLE   8   // E0       JP11-10
+#define LCD_PINS_D4       7   // D7       JP11-8
+#define LCD_PINS_D5       6   // D6       JP11-7
+#define LCD_PINS_D6       5   // D5       JP11-6
+#define LCD_PINS_D7       4   // D4       JP11-5
+
+#define BTN_EN1        10   // C0       JP11-12
+#define BTN_EN2        11   // C1       JP11-13
+#define BTN_ENC        12   // C2       JP11-14
+
+// display delays are added to
+// Marlin/ultralcd_st7920_u8glib_rrd.h
+
