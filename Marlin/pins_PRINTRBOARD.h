@@ -182,3 +182,9 @@
 // display delays are added to
 // Marlin/ultralcd_st7920_u8glib_rrd.h
 
+// bltouch - use e-stop for servo
+// dpavlin@nuc:/nuc/PrintrBot/Marlin$ grep E5 m43-pins.txt 
+// PIN:  37   Port: E5        <unused/unknown>            Input  = 1
+//
+#define SERVO0_PIN	37	// E5 E-STOP
+
